@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/bp_gray"
+    tools:context=".CategoryFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/bp_navy"
+        android:gravity="center"
+        android:text="@string/this_category" />
+
+    <Button
+        android:id="@+id/btn_detail_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingHorizontal="24dp"
+        android:text="@string/category_lifestyle" />
+
+</LinearLayout>
