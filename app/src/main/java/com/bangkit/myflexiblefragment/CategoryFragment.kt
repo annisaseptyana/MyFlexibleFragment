@@ -17,8 +17,26 @@ class CategoryFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         val btnDetailCategory:Button = view.findViewById(R.id.btn_detail_category)
         btnDetailCategory.setOnClickListener{
+            val categoryDetailsFragment = CategoryDetailsFragment()
+
+            val bundle = Bundle()
+            bundle.putString(CategoryDetailsFragment.CATEGORY_NAME, "Pets")
+            val description = "This category is for \"Pets Stuff\""
+            bundle.putString(CategoryDetailsFragment.CATEGORY_DESCRIPTION, description)
+
+            categoryDetailsFragment.arguments = bundle
+
+            val fragmentManager = parentFragmentManager
+            fragmentManager
+                .beginTransaction()
+                .apply {
+                replace(R.id.frame_container, categoryDetailsFragment, CategoryDetailsFragment::class.java.simpleName)
+                addToBackStack(null)
+                commit()
+            }
 
         }
     }

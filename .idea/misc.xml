@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ANNISA/AndroidStudioProjects/MyFlexibleFragment/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/ANNISA/AndroidStudioProjects/MyFlexibleFragment/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Users/ANNISA/AndroidStudioProjects/MyFlexibleFragment/app/src/main/res/layout/fragment_category.xml" value="0.1" />
         <entry key="..\:/Users/ANNISA/AndroidStudioProjects/MyFlexibleFragment/app/src/main/res/layout/fragment_category_detail.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/ANNISA/AndroidStudioProjects/MyFlexibleFragment/app/src/main/res/layout/fragment_category_details.xml" value="0.1" />
         <entry key="..\:/Users/ANNISA/AndroidStudioProjects/MyFlexibleFragment/app/src/main/res/layout/fragment_detail_category.xml" value="0.1" />
         <entry key="..\:/Users/ANNISA/AndroidStudioProjects/MyFlexibleFragment/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/ANNISA/AndroidStudioProjects/MyFlexibleFragment/app/src/main/res/layout/fragment_quiz_dialog.xml" value="0.1" />
       </map>
     </option>
   </component>
