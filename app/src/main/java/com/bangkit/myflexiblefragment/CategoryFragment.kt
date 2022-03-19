@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.fragment.app.commit
 
 class CategoryFragment : Fragment() {
 
@@ -30,12 +31,9 @@ class CategoryFragment : Fragment() {
             categoryDetailsFragment.arguments = bundle
 
             val fragmentManager = parentFragmentManager
-            fragmentManager
-                .beginTransaction()
-                .apply {
-                replace(R.id.frame_container, categoryDetailsFragment, CategoryDetailsFragment::class.java.simpleName)
+            fragmentManager.commit {
                 addToBackStack(null)
-                commit()
+                replace(R.id.frame_container, categoryDetailsFragment, CategoryDetailsFragment::class.java.simpleName)
             }
 
         }
